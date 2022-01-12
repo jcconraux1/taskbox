@@ -19,4 +19,5 @@ jobs:
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          autoAcceptChanges: 'main' //branch name to automaticaly refresh
+          token: ${{ secrets.TASKBOX_SECRET }}
+          autoAcceptChanges: "main" #branch name to automaticaly refresh
